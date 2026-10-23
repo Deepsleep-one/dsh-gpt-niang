@@ -1,0 +1,33 @@
+{
+  "name": "dsh-gpt-niang",
+  "version": "1.0.0",
+  "description": "DSH Web 界面右下角的桌宠额度挂件：角色可拖拽/抛掷/散步/打瞌睡/闲聊，点击弹出 ChatGPT / Codex 订阅额度气泡（5 小时窗口、周上限、模型级可用性、积分与附加池）。纯插件实现，不依赖 Codex 桌面端。代码 MIT；角色立绘来自 GPT-Niang 项目、不适用 MIT，仅供个人非商业使用，见 assets/pet/CHARACTER-NOTICE.txt。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "chatgpt",
+    "codex",
+    "quota",
+    "widget",
+    "desktop-pet"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test --test-isolation=none test/*.test.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
