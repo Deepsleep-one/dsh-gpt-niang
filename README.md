@@ -10,10 +10,12 @@
 - 灵感来自 [T7moris/GPT-Niang](https://github.com/T7moris/GPT-Niang)（Codex 桌面插件 + WPF 挂件），
   本仓库是从零重写的 DSH 插件，只沿用了它的角色立绘，未使用其代码
 
+![额度气泡与桌宠](docs/screenshot.png)
+
 ## 安装 / 卸载
 
 ```bash
-git clone https://github.com/<你的账号>/dsh-gpt-niang.git
+git clone https://github.com/Deepsleep-one/dsh-gpt-niang.git
 
 # 安装（写工作区之外，需要 danger-full-access）
 dsh plugin --profile desktop add 'link:<克隆下来的绝对路径>'
